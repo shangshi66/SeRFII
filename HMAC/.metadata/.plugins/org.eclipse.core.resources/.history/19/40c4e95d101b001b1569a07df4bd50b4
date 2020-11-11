@@ -1,0 +1,8 @@
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
+
+public class HMAC {
+	public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
