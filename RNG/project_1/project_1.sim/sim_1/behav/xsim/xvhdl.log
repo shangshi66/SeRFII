@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/shish/Desktop/work/SeRFI/RNG/project_1/project_1.srcs/sources_1/imports/Desktop/variable_Caos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/shish/Desktop/work/SeRFI/RNG/project_1/project_1.srcs/sources_1/imports/Desktop/newCaoticGen2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'newCaoticGen2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/shish/Desktop/work/SeRFI/RNG/project_1/project_1.srcs/sim_1/imports/Desktop/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
