@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1608157316">
+  <File Type="PA-TCL" Name="decrypter.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="decrypter_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="decrypter_reports.tcl"/>
+  <File Type="RDS-RDS" Name="decrypter.vds"/>
+  <File Type="RDS-UTIL" Name="decrypter_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="decrypter_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="decrypter.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="decrypter_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="decrypter_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/HS/mod_mul.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/HS/mod_mul.vhd"/>
+        <Attr Name="ImportTime" Val="1607610417"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HS/decrypter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/HS/decrypter.vhd"/>
+        <Attr Name="ImportTime" Val="1607618352"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HS/wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/HS/wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1607792580"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="decrypter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
