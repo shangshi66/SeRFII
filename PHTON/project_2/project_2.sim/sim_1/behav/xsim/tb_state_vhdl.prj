@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/LFSR.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/LFSRcounter15v2.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/LFSRcounter5.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/hashpkg.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/MC5.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/SboxDAO.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/clk_gating.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/clk_gatingx.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/controlerv2.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/dflipfloplw1in.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/dflipfloplw2in.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/killerIO.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/lwhv2.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/state.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/times2.vhd" \
+"../../../../project_2.srcs/sources_1/imports/80_20_16v2/times8.vhd" \
+"../../../../project_2.srcs/sim_1/imports/80_20_16v2/tb_state.vhd" \
+
+# Do not sort compile order
+nosort
