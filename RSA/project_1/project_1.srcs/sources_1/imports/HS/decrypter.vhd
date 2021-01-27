@@ -18,10 +18,10 @@ entity decrypter is
     Port ( clk : in STD_LOGIC;
            rst : in STD_LOGIC;
            go : in STD_LOGIC;
---           c : in UNSIGNED(w - 1 DOWNTO 0);
---           d : in UNSIGNED(w - 1 DOWNTO 0);
---           N : in UNSIGNED(w - 1 DOWNTO 0);
---           r : out UNSIGNED(w - 1 DOWNTO 0);
+           c : in UNSIGNED(w - 1 DOWNTO 0);
+           d : in UNSIGNED(w - 1 DOWNTO 0);
+           N : in UNSIGNED(w - 1 DOWNTO 0);
+           r : out UNSIGNED(w - 1 DOWNTO 0);
            valid : out STD_LOGIC);
 end decrypter;
 
@@ -38,10 +38,10 @@ component mod_mul
 end component;
 signal i : integer;
 signal t1 : UNSIGNED(w-1 DOWNTO 0);
-signal c : UNSIGNED(w-1 DOWNTO 0) := (others => '0');
-signal d : UNSIGNED(w-1 DOWNTO 0) := (others => '0');
-signal N : UNSIGNED(w-1 DOWNTO 0) := (others => '0');
-signal r : UNSIGNED(w-1 DOWNTO 0);
+--signal c : UNSIGNED(w-1 DOWNTO 0) := (others => '0');
+--signal d : UNSIGNED(w-1 DOWNTO 0) := (others => '0');
+--signal N : UNSIGNED(w-1 DOWNTO 0) := (others => '0');
+--signal r : UNSIGNED(w-1 DOWNTO 0);
 signal cn : UNSIGNED(w-1 DOWNTO 0);
 signal a1 : UNSIGNED(w-1 DOWNTO 0);
 signal b1 : UNSIGNED(w-1 DOWNTO 0);
