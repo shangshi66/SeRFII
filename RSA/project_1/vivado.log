@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan 26 22:55:12 2021
+# Process ID: 3176
+# Current directory: C:/Users/shish/Desktop/work/SeRFI/RSA/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14628 C:\Users\shish\Desktop\work\SeRFI\RSA\project_1\project_1.xpr
+# Log file: C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/vivado.log
+# Journal file: C:/Users/shish/Desktop/work/SeRFI/RSA/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 709.551 ; gain = 114.984
+update_compile_order -fileset sources_1
