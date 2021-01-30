@@ -27,7 +27,7 @@ end decrypter;
 
 architecture Behavioral of decrypter is
 component mod_mul
-    Generic ( w : integer := 1024);
+    Generic ( w : integer := w);
     Port ( clk : in STD_LOGIC;
            go : in STD_LOGIC;
            a : in UNSIGNED(w-1 DOWNTO 0);
@@ -70,13 +70,19 @@ begin
         b1 <= TO_UNSIGNED(1, b1'length);
         valid <= '0';
         g1 <= '0';
-        mode <= 0;
+        mode <= 4;
     elsif (rising_edge(clk) and go = '1') then
-        if mode = 0 then
+        if mode = 4 then
+            a1 <= c;
+            b1 <= TO_UNSIGNED(1, b1'length);
+            mode <= 0;
+        elsif mode = 0 then
             if v1 = '0' then 
-                a1 <= c;
-                b1 <= TO_UNSIGNED(1, b1'length);
-                g1 <= '1';
+                if a1 > N then
+                    a1 <= a1 - N;
+                else
+                    g1 <= '1';
+                end if;
             else
                 cn <= r1;
                 mode <= 1;

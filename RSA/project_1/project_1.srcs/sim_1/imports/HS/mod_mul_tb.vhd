@@ -60,9 +60,9 @@ begin
 --	m <= "00000011";
     wait for 15 ns;
     go <= '1';
-    REPORT "Begin test case for a=112, b=73, m=153";
-	REPORT "Expected output is 67";
-    a <= "01110000";
+    REPORT "Begin test case for a=240, b=73, m=153";
+	REPORT "Expected output is 78";
+    a <= "11110000";
 	b <= "01001001";
 	m <= "10011001"; 
     wait;

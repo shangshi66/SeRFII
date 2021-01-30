@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/mod_mul_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Wed Dec 16 19:31:19 2020" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Fri Jan 29 23:38:28 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.3 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2405991" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "715edf0b-7d30-4df7-b6a8-69515d173e59" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "0e009ceee697477eaa72863a358aaa5a" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "5" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "15" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz" -context "user_environment"
@@ -24,9 +24,9 @@ webtalk_add_data -client project -key system_ram -value "16.000 GB" -context "us
 webtalk_register_client -client xsim
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
-webtalk_add_data -client xsim -key runtime -value "10 us" -context "xsim\\usage"
+webtalk_add_data -client xsim -key runtime -value "10 ms" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "2" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "0.06_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "6040_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 3425476247 -regid "" -xml C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/mod_mul_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/mod_mul_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/mod_mul_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.44_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "13984_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2988986714 -regid "" -xml C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/mod_mul_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/mod_mul_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/mod_mul_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.srcs/sources_1/imports/HS/decrypter.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'decrypter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/shish/Desktop/work/SeRFI/RSA/project_1/project_1.srcs/sim_1/imports/HS/decrypter_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrypter_tb'

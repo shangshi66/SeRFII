@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1608157316">
   <File Type="PA-TCL" Name="decrypter.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="decrypter_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="decrypter_reports.tcl"/>
   <File Type="RDS-RDS" Name="decrypter.vds"/>
   <File Type="RDS-UTIL" Name="decrypter_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="decrypter_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="decrypter.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="decrypter_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="decrypter_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/HS/mod_mul.vhd">
@@ -55,9 +52,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
