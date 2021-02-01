@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/imports/rtl/sha256.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/sha256_core.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/sha256_k_constants.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/sha256_w_mem.v" \
+"../../../../project_1.srcs/sim_1/imports/tb/tb_sha256.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
