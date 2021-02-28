@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/rtl/controller.vhd" \
+"../../../../project_2.srcs/sources_1/imports/rtl/SHA_IP.vhd" \
+"../../../../project_2.srcs/sources_1/imports/rtl/sha_tb.vhd" \
+
+# Do not sort compile order
+nosort

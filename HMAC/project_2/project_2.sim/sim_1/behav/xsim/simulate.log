@@ -1,0 +1,5 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+   -- Testbench started: fada31cc1422560e42c8d95f8c262edcf66afab9f58f3753d73ca8ecc13ea20e --
+*** Simulation done.
+$finish called at time : 596 ns : File "C:/Users/shish/Desktop/work/SeRFI/HMAC/project_2/project_2.srcs/sim_1/imports/new/tb_hmac.v" Line 72
