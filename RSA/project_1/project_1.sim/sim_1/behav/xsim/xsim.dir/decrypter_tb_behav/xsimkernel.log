@@ -1,7 +1,7 @@
-Running: xsim.dir/decrypter_tb_behav/xsimk.exe -simmode gui -wdb decrypter_tb_behav.wdb -simrunnum 0 -socket 8148
+Running: xsim.dir/decrypter_tb_behav/xsimk.exe -simmode gui -wdb decrypter_tb_behav.wdb -simrunnum 0 -socket 10249
 Design successfully loaded
-Design Loading Memory Usage: 5400 KB (Peak: 5400 KB)
-Design Loading CPU Usage: 0 ms
+Design Loading Memory Usage: 5856 KB (Peak: 5856 KB)
+Design Loading CPU Usage: 15 ms
 Simulation completed
-Simulation Memory Usage: 14012 KB (Peak: 14012 KB)
-Simulation CPU Usage: 87312 ms
+Simulation Memory Usage: 14548 KB (Peak: 14548 KB)
+Simulation CPU Usage: 7202 ms
